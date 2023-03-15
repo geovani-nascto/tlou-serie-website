@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Iceland&display=swap');
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home{
+    height: 900px;
+    /* height: 100vh; */
+    background-image: url(/assets/images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+    height: 100%;
+}
+
+figure > img {
+    height: 144px;
+    width: 254px;
+}
+
+nav{
+    width: 70%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li a{
+    color: var(--color-grey-2);
+    font-family: 'Iceland', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 250px;
+    text-align: left;
+}
+
+ul li a:hover{
+    font-weight: 600;
+}
+
+main{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1{
+    font-family: 'Iceland', sans-serif;
+    width: 668px;
+    font-size: 92px;
+    font-weight: 400;
+    line-height: 89px;
+    text-align: left;
+    color: var(--color-grey-2);
+}
+
+main > p{
+    width: 506px;
+    font-family: 'Actor', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: var(--text-color-1);
+}
+
+button{
+    height: 46px;
+    width: 180px;
+    color: var(--color-grey-2);
+    margin: 10px;
+    font-family: 'Iceland', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.active{
+    background-color: var(--color-secondary);
+}
+
+.inactive{
+    background-color: var(--color-grey-1);
+}
+
+.active:hover,
+.inactive:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+main > section{
+    margin-top: 100px;
+}
+
+h3{
+    height: 65px;
+    width: 336px;
+    font-family: 'Iceland', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: var(--color-grey-2);
+    text-transform: uppercase;
+}
+
+section > ul{
+    width: 800px;
+}
+
+section > ul > li{
+    text-transform: uppercase;
+    height: 139px;
+    width: 261px;
+    background-image: url(../images/inside/adventure.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.episodes{
+    height: 900px;
+    /* height: 100vh; */
+    background-image: url(/assets/images/backgroundEpisodes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.posts{
+    height: 546px;
+    width: 479px;
+    margin-top: 80px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.posts > p{
+    color: var(--color-grey-2);
+    font-family: 'Iceland', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.episodes-list{
+    height: 762px;
+    width: 671px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.card{
+    height: 182px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    background-color: var(--color-grey-3);
+}
+
+.card > img{
+    width: 250px;
+    height: 120px;
+    border-radius: 12px;
+}
+
+.card-text{
+    width: 60%;
+    height: 80%;
+    margin: 20px;
+}
+
+.card-text h4{
+    height: 30px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: var(--color-grey-2);
+}
+
+.card-text p{
+    height: 88px;
+    width: 324px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: var(--color-grey-2);
+}
