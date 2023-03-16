@@ -1,0 +1,86 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+@media /*(min-width: 768px) and*/ (max-width: 1024px){
+    .home{
+        height: auto;
+    }
+    
+    .episodes{
+        background: #000;
+    }
+
+    .posts h2{
+        display: block;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .inside{
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        width: 80vw;
+    }
+
+    .inside li{
+        /* width: 350px; */
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .posts{
+        margin-bottom: 60px;
+        width: auto;
+    }
+
+    .episodes-list{
+        margin-bottom: 60px;
+    }
+
+    .footer{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px){
+
+    .episodes-list{
+        width: 100%;
+    }
+
+    .card{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 16px;
+    }
+
+    .card-text {
+        position: relative; /* Adiciona posição relativa para o elemento pai */
+      }
+      
+      .card-text h4,
+      .card-text p {
+        position: relative; /* Adiciona posição relativa aos elementos filhos */
+        z-index: 1; /* Define um valor de ordem na pilha de sobreposição */
+      }
+      
+      .card-text img {
+        position: absolute; /* Adiciona posição absoluta à imagem */
+        top: 0; /* Alinha a imagem no topo */
+        left: 0; /* Alinha a imagem à esquerda */
+        width: 100%; /* Define a largura da imagem como 100% do elemento pai */
+        height: auto; /* Define a altura da imagem proporcionalmente */
+        z-index: 0; /* Define um valor de ordem menor do que os elementos filhos */
+      }
+
+      section > ul > li{
+      }
+}

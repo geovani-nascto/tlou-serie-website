@@ -244,7 +244,7 @@ section > ul > li{
 }
 
 .card-text h4:hover{
-    filter: contrast(0.5);
+    filter: contrast(0.4);
 }
 
 .card-text p{
