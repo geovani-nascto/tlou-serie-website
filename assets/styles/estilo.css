@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Actor&family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Iceland&display=swap');
 
+body{
+    overflow-x: hidden;
+}
 
 .flex {
     display: flex;
@@ -96,6 +99,7 @@ button{
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.2s;
+    border-radius: 20px;
 }
 
 .active{
@@ -133,13 +137,25 @@ section > ul{
 }
 
 section > ul > li{
+    color: var(--color-grey-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-transform: uppercase;
     height: 139px;
     width: 261px;
-    background-image: url(../images/inside/adventure.svg);
+    background-image: url(../images/inside/survival.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top right;
+}
+
+#inside-relationship{
+    background-image: url(../images/inside/relationship.svg);
+}
+
+#inside-adventure{
+    background-image: url(../images/inside/adventure.svg);
 }
 
 .episodes{
@@ -178,7 +194,7 @@ section > ul > li{
 .episodes-list{
     height: 762px;
     width: 671px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     overflow: auto;
 }
 

@@ -1,28 +1,28 @@
 const episodes = [
     {
       img: "./assets/images/episodes/episode1.svg",
-      title: "When You're Lost in the Darkness",
+      title: "Quando estiver perdido na escuridão",
       description:
-        " In 2003, a mass fungal infection of mutated Cordyceps sparks a global pandemic. Joel flees with his daughter, Sarah, and brother, Tommy, from their Texas home; Sarah is killed by asoldier.",
+        " Em 2003, uma infecção fúngica em massa de Cordyceps mutante desencadeou uma pandemia global. Joel foge com sua filha, Sarah, e seu irmão, Tommy, de sua casa no Texas; Sarah é morta por um soldado.",
     },
   
     {
       img: "./assets/images/episodes/episode2.svg",
-      title: "Infected",
+      title: "Infectados",
       description:
-        " Two days before the worldwide outbreak, in Jakarta, Indonesia, the government shows an infected corpse to a mycologist, who tells them there is no cure or vaccine.",
+        " Dois dias antes do surto mundial, em Jacarta, na Indonésia, o governo mostra um cadáver infectado a um micologista, que lhes diz que não há cura ou vacina.",
     },
     {
       img: "./assets/images/episodes/episode3.svg",
-      title: "Long, Long Time",
+      title: "Por Muito, Muito Tempo",
       description:
-        " Joel and Ellie begin the hike to meet with Bill and Frank. Ellie sees evidence of the government's execution of innocents during the early days of the pandemic.",
+        " Joel e Ellie começam a caminhada para se encontrar com Bill e Frank. Ellie vê evidências da execução de inocentes pelo governo durante os primeiros dias da pandemia.",
     },
     {
       img: "./assets/images/episodes/episode4.svg",
-      title: "Please Hold to My Hand",
+      title: "Por Favor, Segure a Minha Mão",
       description:
-        " Traveling through Missouri, Joel and Ellie are forced to take a detour through Kansas City, where they are ambushed.",
+        " Viajando pelo Missouri, Joel e Ellie são forçados a fazer um desvio por Kansas City, onde são emboscados.",
     },
   ];
 
