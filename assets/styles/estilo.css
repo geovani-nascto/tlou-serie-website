@@ -33,6 +33,7 @@ body{
 figure > img {
     height: 144px;
     width: 254px;
+    filter: contrast(1.2);
 }
 
 nav{
@@ -158,6 +159,12 @@ section > ul > li{
     background-image: url(../images/inside/adventure.svg);
 }
 
+#inside-terror{
+    background-image: url(../images/inside/terror.jpg);
+    filter: contrast(0.6);
+    filter: saturate(0.4);
+}
+
 .episodes{
     height: 900px;
     /* height: 100vh; */
@@ -213,7 +220,7 @@ section > ul > li{
     background-color: var(--color-grey-3);
 }
 
-.card > img{
+.card > a > img{
     width: 250px;
     height: 120px;
     border-radius: 12px;
@@ -233,6 +240,11 @@ section > ul > li{
     line-height: 30px;
     text-align: left;
     color: var(--color-grey-2);
+    transition: 0.2s;
+}
+
+.card-text h4:hover{
+    filter: contrast(0.5);
 }
 
 .card-text p{
@@ -262,18 +274,19 @@ footer h2{
     font-size: 48px;
     font-weight: 400;
     line-height: 47px;
-    text-align: left;
+    text-align: center;
     color: var(--color-grey-2);
     text-transform: uppercase;
 }
 
 footer h3{
     height: 31px;
-    width: 449px;
+    /* width: 449px; */
+    width: 660px;
     font-size: 32px;
     font-weight: 400;
     line-height: 31px;
-    text-align: left;
+    text-align: center;
     color: var(--color-grey-2);
 }
 
@@ -282,4 +295,12 @@ footer h3{
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+.icon-midias img{
+    transition: 0.3s;
+}
+
+.icon-midias img:hover{
+    transform: scale(1.2);
 }
