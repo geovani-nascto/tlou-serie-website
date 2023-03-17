@@ -18,7 +18,7 @@ body{
 .home{
     height: 900px;
     /* height: 100vh; */
-    background-image: url(../assets/images/background.svg);
+    background-image: url(../images/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top right;
@@ -168,7 +168,7 @@ section > ul > li{
 .episodes{
     height: 900px;
     /* height: 100vh; */
-    background-image: url(../assets/images/backgroundEpisodes.png);
+    background-image: url(../images/backgroundEpisodes.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top right;
