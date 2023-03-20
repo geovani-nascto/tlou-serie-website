@@ -29,6 +29,7 @@ html, body{
         /* width: 350px; */
         width: 48%;
         margin-bottom: 20px;
+        background-position: center center;
     }
 
     .posts{
@@ -81,6 +82,17 @@ html, body{
         z-index: 0; /* Define um valor de ordem menor do que os elementos filhos */
       }
 
-      section > ul > li{
+      footer h2{
+        font-size: 3rem;
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+      }
+
+      footer h3{
+        font-size: 2rem;
+        width: 70%;
+        margin: 0 auto;
+        height: auto;
       }
 }
